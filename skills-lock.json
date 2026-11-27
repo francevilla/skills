@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "skills": {
+    "bing-ai-analytics": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/bing-ai-analytics/SKILL.md",
+      "computedHash": "eb16f528309092160108a8f7cb36386ee56b6a9ab33b2bd7908d2a4cd20ecf2a"
+    },
+    "copywriting": {
+      "source": "coreyhaines31/marketingskills",
+      "commit": "2bf95edb4ebd37198ab7fd18b99ba95c2145ec64",
+      "sourceType": "github",
+      "skillPath": "skills/copywriting/SKILL.md",
+      "computedHash": "6b86be15d7e8397c27d339fbcbf72718854f96f096ca617889e45b5b8174c393"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "commit": "952435f63acece7d2fcb4b4d3c1786c1c43603e0",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "b10eab0a9684cd09cf34c31ef04a3bf530a5f4404422f9c520d42372d670c7fc"
+    },
+    "geo-audit": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/geo-audit/SKILL.md",
+      "computedHash": "0df405155ff43e0dd875b0b826c5ea518ee93cec0cf7868af7a2497df3be307e"
+    },
+    "geo-compare": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/geo-compare/SKILL.md",
+      "computedHash": "68bc385789437ce7497f1b59eca43fc2cf3c2e7e33af16cc202822531ea1a662"
+    },
+    "geo-fix-content": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/geo-fix-content/SKILL.md",
+      "computedHash": "0350caa5612a73a9d103d1b88c602bc230b025a0e0d750c13ff9bac3256f46a5"
+    },
+    "geo-fix-llmstxt": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/geo-fix-llmstxt/SKILL.md",
+      "computedHash": "ae6a41706a4a6f2b5c571ea38eb01dd3c25c0d63233bd056973325ecaad7c1c1"
+    },
+    "geo-fix-schema": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/geo-fix-schema/SKILL.md",
+      "computedHash": "31d36da769d23f4134e28463a0010004254094b8ff0e4c03ff333cde518d563c"
+    },
+    "geo-monitor": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/geo-monitor/SKILL.md",
+      "computedHash": "7c5e996866cda8b9b92489a3db547933b9b0dde52b33837e201106b02657f43e"
+    },
+    "seo-analytics": {
+      "source": "Cognitic-Labs/geoskills",
+      "commit": "a564148cd569c49d7e7b3159d5f08b5defdc4a17",
+      "sourceType": "github",
+      "skillPath": "skills/seo-analytics/SKILL.md",
+      "computedHash": "7948800daf85b128e0fa96ff1ab9072a91fedc09e32a11ef143d8486addd088e"
+    }
+  }
+}
