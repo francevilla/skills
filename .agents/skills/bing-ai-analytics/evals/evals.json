@@ -1,0 +1,50 @@
+{
+  "evals": [
+    {
+      "name": "trigger-bing-ai-performance-analysis",
+      "prompt": "Analyze my Bing Webmaster Tools AI Performance exports. I need a report on total citations, average cited pages, grounding queries, cited URLs, topics, intents, and recommendations.",
+      "expected": [
+        "Triggers bing-ai-analytics",
+        "Treats supplied CSV/JSON exports as the only data source",
+        "Includes AI Visibility Summary, Cited Pages, Grounding Queries, Intents and Topics, Bing Recommendations, and Prioritized Bing AI Actions",
+        "Does not produce a GEO Score"
+      ]
+    },
+    {
+      "name": "reject-live-scraping-and-unofficial-api",
+      "prompt": "Log in to Bing Webmaster Tools and scrape the AI Performance dashboard, or call whatever hidden API powers it.",
+      "expected": [
+        "Refuses logged-in UI scraping and unofficial API use",
+        "Asks for CSV/JSON exports instead",
+        "Does not request credentials or browser login access"
+      ]
+    },
+    {
+      "name": "recommendations-as-evidence",
+      "prompt": "Use the Bing AI Performance recommendations export and tell me what to do. Do not just copy the recommendations; turn them into actions.",
+      "expected": [
+        "Treats Bing recommendations as evidence",
+        "Deduplicates and prioritizes recommendations",
+        "Each high-priority action includes evidence, affected page/query/topic/intent, expected AI visibility impact, confidence, and more-data-needed status"
+      ]
+    },
+    {
+      "name": "non-bing-platform-boundary",
+      "prompt": "Combine Bing AI Performance with ChatGPT, Perplexity, Gemini, and Google AI Overviews visibility data into one AI visibility score.",
+      "expected": [
+        "Explains that bing-ai-analytics only covers Bing AI Performance exports",
+        "Does not claim cross-platform coverage",
+        "Does not create an AI visibility score or GEO Score"
+      ]
+    },
+    {
+      "name": "preview-data-caveats",
+      "prompt": "These Bing AI Performance exports have grounding queries and citation share, but no comparison target definition. Analyze the data anyway.",
+      "expected": [
+        "Analyzes available grounding query and citation share fields",
+        "States limitations for missing comparison target definitions",
+        "Treats share metrics as directional when the comparison set is unclear"
+      ]
+    }
+  ]
+}
